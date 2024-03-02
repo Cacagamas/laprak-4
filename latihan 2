@@ -1,0 +1,16 @@
+def cek_digit_belakang(a, b, c):
+    
+    digit_a = str(a)[-1]
+    digit_b = str(b)[-1]
+    digit_c = str(c)[-1]
+
+    if digit_a == digit_b or digit_a == digit_c or digit_b == digit_c:
+        return True
+    else:
+        return False
+
+a = int(input("Masukkan nilai a: "))
+b = int(input("Masukkan nilai b: "))
+c = int(input("Masukkan nilai c: "))
+
+print(cek_digit_belakang(a, b, c))
