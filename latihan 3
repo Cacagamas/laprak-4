@@ -1,0 +1,15 @@
+celcius_to_fahrenheit = lambda c: (9/5) * c + 32
+
+celcius_to_reamur = lambda c: 0.8 * c
+
+celsius_input_1 = 100
+fahrenheit_output_1 = celcius_to_fahrenheit(celsius_input_1)
+print("Input C =", celsius_input_1, ". Output F =", fahrenheit_output_1)
+
+celsius_input_2 = 80
+reamur_output_2 = celcius_to_reamur(celsius_input_2)
+print("Input C =", celsius_input_2, ". Output R =", reamur_output_2)
+
+celsius_input_3 = 0
+fahrenheit_output_3 = celcius_to_fahrenheit(celsius_input_3)
+print("Input C =", celsius_input_3, ". Output F =", fahrenheit_output_3)
